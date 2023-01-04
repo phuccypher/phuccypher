@@ -199,7 +199,7 @@
         return Particle;
       })();
       
-      var ParticlePool = (function () {
+      var ParticlePool = function () {
         var particles,
           firstActive = 0,
           firstFree = 0,
